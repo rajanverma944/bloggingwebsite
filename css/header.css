@@ -3,11 +3,11 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 .btn-signin
 {
     float: right;
-    margin-bottom: 0px;
+   
     background-color: blue;
     color: white;
       margin-left: 10px;
-       padding: 5px;
+   
     overflow: hidden;
     	font-family: "Lucida Console", "Monaco", "monospace";
 }
@@ -16,7 +16,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
 color: dodgerblue;
     margin-top: 15px;
     font-family:"Marck Script";
-    font-size:40px;
+    font-size:60px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -31,3 +31,126 @@ color: black;
     margin-top: 15px;
     line-height: 26.4px;
 }
+.topButtons
+{
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 3px;
+}
+.logo-title
+{
+    margin-left: 0px;
+    font-family: 'Satisfy',cursive;
+    color: blue;
+    font-size: 50px;
+}
+.middleText
+{
+    
+    color: black;
+    margin-left: 0px;
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+    
+}
+.modal {
+    font-family: 'Itim', cursive;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    padding-top: 50px;
+     background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    font-family: 'Itim', cursive;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%;
+    /* Could be more or less, depending on screen size */
+
+}
+.close {
+   
+  position:absolute;
+  right: 425px;
+ bottom: 520px;
+     z-index: 1;
+  font-size: 40px;
+  font-weight: bold;
+  color: gray;
+     cursor: pointer;
+}
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+label
+{
+     font-family: 'Itim', cursive;
+}
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-family: 'Itim', cursive;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    font-family: 'Itim', cursive;
+}
+
+.signup-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Itim', cursive;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+   font-family: 'Itim', cursive;
+}
+
+@media screen and (max-width: 300px) {
+
+    .cancel-btn,
+    .signup-btn {
+        width: 100%;
+        
+    }
+}
+
