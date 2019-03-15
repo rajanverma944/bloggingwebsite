@@ -15,6 +15,7 @@ function liker() {
 function comments(cmt){
     var par = document.createElement("div");
     var lis = document.createTextNode(cmt.value);
+    document.getElementById('txtarea').value='';
    par.appendChild(lis);
    // par.prepend(lis);
     var vs = document.getElementById("listcomments");

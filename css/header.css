@@ -1,59 +1,5 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
-.btn-signin
-{
-    float: right;
-   
-    background-color: blue;
-    color: white;
-      margin-left: 10px;
-   
-    overflow: hidden;
-    	font-family: "Lucida Console", "Monaco", "monospace";
-}
-.header
-{
-color: dodgerblue;
-    margin-top: 15px;
-    font-family:"Marck Script";
-    font-size:60px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 26.4px;
-
-}
-h6
-{
-color: black;
-    font-family:"Niconne";
-    font-size:23px;
-    margin-top: 15px;
-    line-height: 26.4px;
-}
-.topButtons
-{
-    float: right;
-    background-color: blue;
-    color: white;
-    margin: 3px;
-}
-.logo-title
-{
-    margin-left: 0px;
-    font-family: 'Satisfy',cursive;
-    color: blue;
-    font-size: 50px;
-}
-.middleText
-{
-    
-    color: black;
-    margin-left: 0px;
-    font-family: 'Marck Script',cursive;
-    font-size: 15px;
-    
-}
 .modal {
     font-family: 'Itim', cursive;
     display: none;
@@ -154,3 +100,27 @@ input[type=password]:focus {
     }
 }
 
+.topButtons
+{
+    float: right;
+    background-color: blue;
+    color: white;
+    margin: 6px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+.logo-title
+{
+    margin-left: 0px;
+    font-family: 'Satisfy',cursive;
+    color: blue;
+    font-size: 50px;
+}
+.middleText
+{
+    color: black;
+    margin-left: 0px;
+    font-family: 'Marck Script',cursive;
+    font-size: 15px;
+}

@@ -12,26 +12,84 @@
 
 <body>
     <div id="main-container-div">
-         <div class="header">
-             ScriBBler
-            <button class="btn-signin" onclick="signup()">Sign up</button>
+        
+            <button class="topButtons" onclick="signup()">Sign up</button>
             
-            <button class="btn-signin" onclick="signin()">Sign in</button>
-            <div class="sub">
-                <h6>Explore, Imagine, Create</h6>
+            <button class="topButtons" onclick="signin()">Sign in</button>
+              <a id="pageTitle" class="logo-title">ScriBBler</a>
+          <p class="middleText">Explore, Imagine, Create</p>
             <!-- Insert code for Sign Up, Sign In button here. 
                  Add code for "ScriBBler" heading and the sub-heading -->
              </div>
-        </div>
-    </div>
+    
     <div>
+<div>
+                          <div id="modalwrapper2" class="modal">
+            <span class="close" onclick="closesignin()">&times;</span>
 
+            <form class="modal-content" action="#">
+
+                <div class="container">
+
+                    <center>
+                        <h1>Welcome Back!</h1>
+                    </center>
+                    <hr>
+
+                    <lable for="email"><b>Username</b></lable>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <button type="submit" class="signup-btn">Sign Up</button>
+                    
+                   <center><p>Not a member ?<a  onclick="redirect()" style="color:dodgerblue">Sign up</a></p></center> 
+
+                </div>
+            </form>
+        </div>
+   <!-- Signinmodal-->
+        </div>
         <!-- Insert code for Sign In modal here -->
 
     </div>
 
     <div>
+ <div>
+                <div id="modalwrapper" class="modal">
+            <span class="close"onclick="closesignup();">&times;</span>
 
+            <form class="modal-content" action="#">
+
+                <div class="container">
+
+                    <center>
+                        <h1>Get Started</h1>
+                    </center>
+
+                    <hr>
+
+                    <lable for="email"><b>Full Name</b></lable>
+                    <input type="text" placeholder="Enter full name" name="fname" required>
+
+                    <lable for="email"><b>Username</b></lable>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="rptpsw"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Enter Password again" name="rptpsw" required>
+
+                    <button type="submit" class="signup-btn">Sign Up</button>
+                </div>
+            </form>
+        </div>      
+              
+   <!-- Signupmodal-->
+        </div>
+        
         <!-- Insert code for Sign Up modal here -->
 
     </div>
@@ -143,68 +201,8 @@
         </div>
         </div>
     
-        <div>
-                          <div id="modalwrapper2" class="modal">
-            <span class="close" onclick="closesignin()">&times;</span>
-
-            <form class="modal-content" action="#">
-
-                <div class="container">
-
-                    <center>
-                        <h1>Welcome Back!</h1>
-                    </center>
-                    <hr>
-
-                    <lable for="email"><b>Username</b></lable>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-
-                    <button type="submit" class="signup-btn">Sign Up</button>
-                    
-                   <center><p>Not a member ?<a  onclick="redirect()" style="color:dodgerblue">Sign up</a></p></center> 
-
-                </div>
-            </form>
-        </div>
-   <!-- Signinmodal-->
-        </div>
-          <div>
-                <div id="modalwrapper" class="modal">
-            <span class="close"onclick="closesignup();">&times;</span>
-
-            <form class="modal-content" action="#">
-
-                <div class="container">
-
-                    <center>
-                        <h1>Get Started</h1>
-                    </center>
-
-                    <hr>
-
-                    <lable for="email"><b>Full Name</b></lable>
-                    <input type="text" placeholder="Enter full name" name="fname" required>
-
-                    <lable for="email"><b>Username</b></lable>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-
-                    <label for="rptpsw"><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Enter Password again" name="rptpsw" required>
-
-                    <button type="submit" class="signup-btn">Sign Up</button>
-                </div>
-            </form>
-        </div>      
-              
-   <!-- Signupmodal-->
-        </div>
         
+         
     
     <script src="..\js\bloglist.js"> </script>
      <script src="..\js\index.js"> </script>
