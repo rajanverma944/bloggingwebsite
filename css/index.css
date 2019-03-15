@@ -45,13 +45,8 @@ body {
 }
 .close {
    
-  position:absolute;
-  right: 425px;
- bottom: 520px;
-     z-index: 1;
-  font-size: 40px;
-  font-weight: bold;
-  color: gray;
+
+ float: right;
      cursor: pointer;
 }
 hr {

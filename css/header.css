@@ -86,7 +86,7 @@ color: black;
 }
 .close {
    
-  position:absolute;
+  position:fixed;
   right: 425px;
  bottom: 520px;
      z-index: 1;
